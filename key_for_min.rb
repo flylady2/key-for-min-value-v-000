@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
   values = []
   values = name_hash.collect do|key, value|
     keys.push(key)
-    values.push(push)
+    values.push(value)
     
   end
 
