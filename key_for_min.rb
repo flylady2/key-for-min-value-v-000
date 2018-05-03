@@ -4,9 +4,9 @@
 def key_for_min_value(name_hash)
   keys = []
   values = []
-  values = name_hash.collect do|key, value|
-    keys.push(key)
-    values.push(value)
+  name_hash.collect do|key, value|
+    i = 0
+    
 
   end
 
